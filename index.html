@@ -1,92 +1,78 @@
-<style>
-
-body{
-    background-color: #4527A0;
-}
-
-.list-group{
-	width: 700px !important;
-
-}
-
-.list-group-item{
-	margin-top:10px;
-	border-radius: none; 
-	background: #5E35B1;
-	cursor: pointer;
-	transition: all 0.3s ease-in-out;
-}
-
-
-.list-group-item:hover{
-	transform: scaleX(1.1);
-}
-
-
-
-.about span{
-	font-size: 12px;
-	margin-right: 10px;
-
-}
-
-.ml-2 {
-    margin: 10px;
-}
-
-a {
-    text-decoration: none !important;
-}
-
-.title {
-    text-align: center;
-    font-size: 50px;
-    font-weight: bold;
-}
-
-</style>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-
 </head>
+<style>
+    .list-group{
+        width: 700px !important;
+
+    }
+
+    .list-group-item{
+        margin-top:10px;
+        border-radius: none; 
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+
+
+    .list-group-item:hover{
+        transform: scaleX(1.1);
+    }
+
+
+
+    .about span{
+        font-size: 13px;
+        margin-right: 7px;
+    }
+
+    .ml-2 {
+        margin: 10px;
+    }
+
+    a {
+        text-decoration: none !important;
+    }
+
+    .title {
+        text-align: center;
+        font-size: 50px;
+        font-weight: bold;
+    }
+</style>
 <body>
-<header class = "title">
-    안녕하세요 최문찬의 포토폴리오 입니다.
-</header>
+    <header class = "title">
+        안녕하세요 최문찬의 포토폴리오 입니다.
+    </header>
 
-
-<div class="container d-flex justify-content-center">
-
-    <ul class="list-group mt-5 text-white">
-        <a href="/pf">
-            <li class="list-group-item d-flex justify-content-between align-content-center">
-
-                <div class="d-flex flex-row">
-                    <img src="https://img.icons8.com/color/100/000000/folder-invoices.png" width="45" />
-                    <div class="ml-2">
-                        <h6 class="mb-0"> Flutter Project</h6>
-                        <div class="about">
-                            <span>방과후 시간에 Dart 와 Flutter 를 활용하여 타이머, 뽑기 어플리케이션을 제작 해보았습니다.</span>
+    <div class="container d-flex justify-content-center">
+        <ul class="list-group mt-5 text-white">
+            <a href="/pf">
+                <li class="list-group-item d-flex justify-content-between align-content-center">
+                    <div class="d-flex flex-row">
+                        <img src="https://img.icons8.com/color/100/000000/folder-invoices.png" width="45" height="50"/>
+                        <div class="ml-2">
+                            <h6 class="mb-lg-2">Flutter Project</h6>
+                            <div class="about">
+                                <span>방과후 시간에 Dart 와 Flutter 를 활용하여 타이머, 뽑기 어플리케이션을 제작 해보았습니다.</span>
+                            </div>
+                            <div style = "margin-top: 5px;" class="card card-body">
+                                <p class = "card-text">소감</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-    
-            </li>
-        </a>
+                </li>
+            </a> 
 
-        
-    </ul>
-		
-</div>
+        </ul>     
+    </div>
 </body>
 </html>
